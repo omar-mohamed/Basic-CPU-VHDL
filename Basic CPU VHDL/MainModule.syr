@@ -1,0 +1,757 @@
+Release 12.1 - xst M.53d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> Reading design: MainModule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MainModule.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MainModule"
+Output Format                      : NGC
+Target Device                      : xc4vlx15-12-sf363
+
+---- Source Options
+Top Module Name                    : MainModule
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 32
+Number of Regional Clock Buffers   : 16
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Library Search Order               : MainModule.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/MainModule is now defined in a different file.  It was defined in "E:/Arch/Milestone2/MainModule.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/MainModule.vhd".
+WARNING:HDLParsers:3607 - Unit work/MainModule/Behavioral is now defined in a different file.  It was defined in "E:/Arch/Milestone2/MainModule.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/MainModule.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU32bit is now defined in a different file.  It was defined in "E:/Arch/Milestone2/ALU32bit.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/ALU32bit.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU32bit/Behavioral is now defined in a different file.  It was defined in "E:/Arch/Milestone2/ALU32bit.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/ALU32bit.vhd".
+WARNING:HDLParsers:3607 - Unit work/ClkInst is now defined in a different file.  It was defined in "E:/Arch/Milestone2/ClkInst.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/ClkInst.vhd".
+WARNING:HDLParsers:3607 - Unit work/ClkInst/Behavioral is now defined in a different file.  It was defined in "E:/Arch/Milestone2/ClkInst.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/ClkInst.vhd".
+WARNING:HDLParsers:3607 - Unit work/RegisterFile is now defined in a different file.  It was defined in "E:/Arch/Milestone2/RegisterFile.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/RegisterFile.vhd".
+WARNING:HDLParsers:3607 - Unit work/RegisterFile/Behavioral is now defined in a different file.  It was defined in "E:/Arch/Milestone2/RegisterFile.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/RegisterFile.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU1bit is now defined in a different file.  It was defined in "E:/Arch/Milestone2/ALU1bit.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/ALU1bit.vhd".
+WARNING:HDLParsers:3607 - Unit work/ALU1bit/Behavioral is now defined in a different file.  It was defined in "E:/Arch/Milestone2/ALU1bit.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/ALU1bit.vhd".
+WARNING:HDLParsers:3607 - Unit work/Decoder32 is now defined in a different file.  It was defined in "E:/Arch/Milestone2/Decoder.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/Decoder.vhd".
+WARNING:HDLParsers:3607 - Unit work/Decoder32/Behavioral is now defined in a different file.  It was defined in "E:/Arch/Milestone2/Decoder.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/Decoder.vhd".
+WARNING:HDLParsers:3607 - Unit work/GenericReg is now defined in a different file.  It was defined in "E:/Arch/Milestone2/GenericReg.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/GenericReg.vhd".
+WARNING:HDLParsers:3607 - Unit work/GenericReg/Behavioral is now defined in a different file.  It was defined in "E:/Arch/Milestone2/GenericReg.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/GenericReg.vhd".
+WARNING:HDLParsers:3607 - Unit work/INSTRMEMORY is now defined in a different file.  It was defined in "E:/Arch/Milestone2/InstMem.V3.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/InstMem.V3.vhd".
+WARNING:HDLParsers:3607 - Unit work/INSTRMEMORY/BEHAVIORAL is now defined in a different file.  It was defined in "E:/Arch/Milestone2/InstMem.V3.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/InstMem.V3.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX32 is now defined in a different file.  It was defined in "E:/Arch/Milestone2/MUX32.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/MUX32.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX32/Behavioral is now defined in a different file.  It was defined in "E:/Arch/Milestone2/MUX32.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/MUX32.vhd".
+WARNING:HDLParsers:3607 - Unit work/reg32_0 is now defined in a different file.  It was defined in "E:/Arch/Milestone2/Reg32_0.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/Reg32_0.vhd".
+WARNING:HDLParsers:3607 - Unit work/reg32_0/Behavioral is now defined in a different file.  It was defined in "E:/Arch/Milestone2/Reg32_0.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/Reg32_0.vhd".
+WARNING:HDLParsers:3607 - Unit work/reg32_1 is now defined in a different file.  It was defined in "E:/Arch/Milestone2/Reg32_1.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/Reg32_1.vhd".
+WARNING:HDLParsers:3607 - Unit work/reg32_1/Behavioral is now defined in a different file.  It was defined in "E:/Arch/Milestone2/Reg32_1.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/Reg32_1.vhd".
+WARNING:HDLParsers:3607 - Unit work/Reg6 is now defined in a different file.  It was defined in "E:/Arch/Milestone2/Reg6.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/Reg6.vhd".
+WARNING:HDLParsers:3607 - Unit work/Reg6/Behavioral is now defined in a different file.  It was defined in "E:/Arch/Milestone2/Reg6.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/Reg6.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX2 is now defined in a different file.  It was defined in "E:/Arch/Milestone2/MUX2.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/MUX2.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX2/Behavioral is now defined in a different file.  It was defined in "E:/Arch/Milestone2/MUX2.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/MUX2.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX4 is now defined in a different file.  It was defined in "E:/Arch/Milestone2/MUX4.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/MUX4.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUX4/Behavioral is now defined in a different file.  It was defined in "E:/Arch/Milestone2/MUX4.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/MUX4.vhd".
+WARNING:HDLParsers:3607 - Unit work/MyPackage is now defined in a different file.  It was defined in "E:/Arch/Milestone2/MyPackage.vhd", and is now defined in "C:/Users/omar/Desktop/Project/Milestone2/MyPackage.vhd".
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/MyPackage.vhd" in Library work.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/MUX2.vhd" in Library work.
+Architecture behavioral of Entity mux2 is up to date.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/MUX4.vhd" in Library work.
+Architecture behavioral of Entity mux4 is up to date.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/ALU1bit.vhd" in Library work.
+Architecture behavioral of Entity alu1bit is up to date.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/Decoder.vhd" in Library work.
+Architecture behavioral of Entity decoder32 is up to date.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/MUX32.vhd" in Library work.
+Architecture behavioral of Entity mux32 is up to date.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/Reg32_0.vhd" in Library work.
+Architecture behavioral of Entity reg32_0 is up to date.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/Reg32_1.vhd" in Library work.
+Architecture behavioral of Entity reg32_1 is up to date.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/GenericReg.vhd" in Library work.
+Architecture behavioral of Entity genericreg is up to date.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/Reg6.vhd" in Library work.
+Architecture behavioral of Entity reg6 is up to date.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/InstMem.V3.vhd" in Library work.
+Architecture behavioral of Entity instrmemory is up to date.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/ClkInst.vhd" in Library work.
+Architecture behavioral of Entity clkinst is up to date.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/RegisterFile.vhd" in Library work.
+Architecture behavioral of Entity registerfile is up to date.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/ALU32bit.vhd" in Library work.
+Architecture behavioral of Entity alu32bit is up to date.
+Compiling vhdl file "C:/Users/omar/Desktop/Project/Milestone2/MainModule.vhd" in Library work.
+Entity <mainmodule> compiled.
+Entity <mainmodule> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <MainModule> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ClkInst> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RegisterFile> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ALU32bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Reg6> in library <work> (architecture <behavioral>) with generics.
+	n = 6
+
+Analyzing hierarchy for entity <INSTRMEMORY> in library <work> (architecture <behavioral>) with generics.
+	addresssize = 32
+	words = 32
+	wordsize = 32
+
+Analyzing hierarchy for entity <Decoder32> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX32> in library <work> (architecture <behavioral>) with generics.
+	n = 32
+
+Analyzing hierarchy for entity <reg32_0> in library <work> (architecture <behavioral>) with generics.
+	n = 32
+
+Analyzing hierarchy for entity <reg32_1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <GenericReg> in library <work> (architecture <behavioral>) with generics.
+	n = 32
+
+Analyzing hierarchy for entity <ALU1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX4> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <MainModule> in library <work> (Architecture <behavioral>).
+Entity <MainModule> analyzed. Unit <MainModule> generated.
+
+Analyzing Entity <ClkInst> in library <work> (Architecture <behavioral>).
+Entity <ClkInst> analyzed. Unit <ClkInst> generated.
+
+Analyzing generic Entity <Reg6> in library <work> (Architecture <behavioral>).
+	n = 6
+Entity <Reg6> analyzed. Unit <Reg6> generated.
+
+Analyzing generic Entity <INSTRMEMORY> in library <work> (Architecture <behavioral>).
+	addresssize = 32
+	words = 32
+	wordsize = 32
+WARNING:Xst:790 - "C:/Users/omar/Desktop/Project/Milestone2/InstMem.V3.vhd" line 43: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:819 - "C:/Users/omar/Desktop/Project/Milestone2/InstMem.V3.vhd" line 25: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <LoadIt>
+INFO:Xst:2679 - Register <MEMORY_0$mux0000> in unit <INSTRMEMORY> has a constant value of 00000000000000010100000000100101 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <MEMORY_1$mux0000> in unit <INSTRMEMORY> has a constant value of 00000001000000010100100000100000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <MEMORY_2$mux0000> in unit <INSTRMEMORY> has a constant value of 00000001000010010101000000101010 during circuit operation. The register is replaced by logic.
+Entity <INSTRMEMORY> analyzed. Unit <INSTRMEMORY> generated.
+
+Analyzing Entity <RegisterFile> in library <work> (Architecture <behavioral>).
+Entity <RegisterFile> analyzed. Unit <RegisterFile> generated.
+
+Analyzing Entity <Decoder32> in library <work> (Architecture <behavioral>).
+Entity <Decoder32> analyzed. Unit <Decoder32> generated.
+
+Analyzing generic Entity <MUX32> in library <work> (Architecture <behavioral>).
+	n = 32
+Entity <MUX32> analyzed. Unit <MUX32> generated.
+
+Analyzing generic Entity <reg32_0> in library <work> (Architecture <behavioral>).
+	n = 32
+Entity <reg32_0> analyzed. Unit <reg32_0> generated.
+
+Analyzing Entity <reg32_1> in library <work> (Architecture <behavioral>).
+Entity <reg32_1> analyzed. Unit <reg32_1> generated.
+
+Analyzing generic Entity <GenericReg> in library <work> (Architecture <behavioral>).
+	n = 32
+Entity <GenericReg> analyzed. Unit <GenericReg> generated.
+
+Analyzing Entity <ALU32bit> in library <work> (Architecture <behavioral>).
+Entity <ALU32bit> analyzed. Unit <ALU32bit> generated.
+
+Analyzing Entity <ALU1bit> in library <work> (Architecture <behavioral>).
+Entity <ALU1bit> analyzed. Unit <ALU1bit> generated.
+
+Analyzing Entity <MUX2> in library <work> (Architecture <behavioral>).
+Entity <MUX2> analyzed. Unit <MUX2> generated.
+
+Analyzing Entity <MUX4> in library <work> (Architecture <behavioral>).
+Entity <MUX4> analyzed. Unit <MUX4> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Reg6>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/Reg6.vhd".
+    Found 6-bit up counter for signal <temp>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <Reg6> synthesized.
+
+
+Synthesizing Unit <INSTRMEMORY>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/InstMem.V3.vhd".
+WARNING:Xst:647 - Input <ADDRESS<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <LoadIt> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <MEMORY<0:2>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1781 - Signal <MEMORY<3:31>> is used but never assigned. Tied to default value.
+    Found 32x32-bit ROM for signal <DATA$mux0000> created at line 43.
+    Found 32-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  32 D-type flip-flop(s).
+Unit <INSTRMEMORY> synthesized.
+
+
+Synthesizing Unit <Decoder32>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/Decoder.vhd".
+    Found 1-of-32 decoder for signal <O>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <Decoder32> synthesized.
+
+
+Synthesizing Unit <MUX32>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/MUX32.vhd".
+    Found 32-bit 32-to-1 multiplexer for signal <O>.
+    Summary:
+	inferred  32 Multiplexer(s).
+Unit <MUX32> synthesized.
+
+
+Synthesizing Unit <reg32_0>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/Reg32_0.vhd".
+    Found 32-bit register for signal <temp>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <reg32_0> synthesized.
+
+
+Synthesizing Unit <reg32_1>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/Reg32_1.vhd".
+    Found 32-bit register for signal <temp>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <reg32_1> synthesized.
+
+
+Synthesizing Unit <GenericReg>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/GenericReg.vhd".
+    Found 32-bit register for signal <temp>.
+    Found 32-bit adder for signal <temp$addsub0000> created at line 21.
+    Found 32-bit 4-to-1 multiplexer for signal <temp$mux0000>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 Multiplexer(s).
+Unit <GenericReg> synthesized.
+
+
+Synthesizing Unit <MUX2>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/MUX2.vhd".
+Unit <MUX2> synthesized.
+
+
+Synthesizing Unit <MUX4>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/MUX4.vhd".
+    Found 1-bit 4-to-1 multiplexer for signal <O>.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX4> synthesized.
+
+
+Synthesizing Unit <ClkInst>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/ClkInst.vhd".
+WARNING:Xst:653 - Signal <ADDRESS<31:8>> is used but never assigned. This sourceless signal will be automatically connected to value 000000000000000000000000.
+WARNING:Xst:653 - Signal <ADDRESS<1:0>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
+Unit <ClkInst> synthesized.
+
+
+Synthesizing Unit <RegisterFile>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/RegisterFile.vhd".
+Unit <RegisterFile> synthesized.
+
+
+Synthesizing Unit <ALU1bit>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/ALU1bit.vhd".
+    Found 2-bit adder for signal <ADDER_Tmp>.
+    Found 2-bit adder for signal <ADDER_Tmp$addsub0000> created at line 40.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+Unit <ALU1bit> synthesized.
+
+
+Synthesizing Unit <ALU32bit>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/ALU32bit.vhd".
+WARNING:Xst:1780 - Signal <Set<31>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Set<30:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit xor2 for signal <overflow>.
+Unit <ALU32bit> synthesized.
+
+
+Synthesizing Unit <MainModule>.
+    Related source file is "C:/Users/omar/Desktop/Project/Milestone2/MainModule.vhd".
+WARNING:Xst:646 - Signal <zero> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <overflow> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Data<10:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Cout> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 4-bit latch for signal <Operation>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+Unit <MainModule> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 32x32-bit ROM                                         : 1
+# Adders/Subtractors                                   : 94
+ 2-bit adder                                           : 64
+ 32-bit adder                                          : 30
+# Counters                                             : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 33
+ 32-bit register                                       : 33
+# Latches                                              : 1
+ 4-bit latch                                           : 1
+# Multiplexers                                         : 64
+ 1-bit 4-to-1 multiplexer                              : 32
+ 32-bit 32-to-1 multiplexer                            : 2
+ 32-bit 4-to-1 multiplexer                             : 30
+# Decoders                                             : 1
+ 1-of-32 decoder                                       : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2677 - Node <DATA_0> of sequential type is unconnected in block <IM>.
+WARNING:Xst:2677 - Node <DATA_1> of sequential type is unconnected in block <IM>.
+WARNING:Xst:2677 - Node <DATA_2> of sequential type is unconnected in block <IM>.
+WARNING:Xst:2677 - Node <DATA_3> of sequential type is unconnected in block <IM>.
+WARNING:Xst:2677 - Node <DATA_4> of sequential type is unconnected in block <IM>.
+WARNING:Xst:2677 - Node <DATA_5> of sequential type is unconnected in block <IM>.
+WARNING:Xst:2677 - Node <DATA_6> of sequential type is unconnected in block <IM>.
+WARNING:Xst:2677 - Node <DATA_7> of sequential type is unconnected in block <IM>.
+WARNING:Xst:2677 - Node <DATA_8> of sequential type is unconnected in block <IM>.
+WARNING:Xst:2677 - Node <DATA_9> of sequential type is unconnected in block <IM>.
+WARNING:Xst:2677 - Node <DATA_10> of sequential type is unconnected in block <IM>.
+
+Synthesizing (advanced) Unit <INSTRMEMORY>.
+INFO:Xst:3044 - The ROM <Mrom_DATA_mux0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <DATA>.
+INFO:Xst:3039 - The RAM <Mrom_DATA_mux0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <CLK>           | fall     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <ADDRESS>       |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <DATA>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <INSTRMEMORY> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 32x32-bit single-port block RAM                       : 1
+# Adders/Subtractors                                   : 62
+ 2-bit adder carry in                                  : 32
+ 32-bit adder                                          : 30
+# Counters                                             : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 1024
+ Flip-Flops                                            : 1024
+# Latches                                              : 1
+ 4-bit latch                                           : 1
+# Multiplexers                                         : 64
+ 1-bit 4-to-1 multiplexer                              : 32
+ 32-bit 32-to-1 multiplexer                            : 2
+ 32-bit 4-to-1 multiplexer                             : 30
+# Decoders                                             : 1
+ 1-of-32 decoder                                       : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <CI/R/temp_5> of sequential type is unconnected in block <MainModule>.
+
+Optimizing unit <MainModule> ...
+
+Optimizing unit <reg32_0> ...
+
+Optimizing unit <reg32_1> ...
+
+Optimizing unit <RegisterFile> ...
+
+Optimizing unit <ALU1bit> ...
+
+Optimizing unit <ALU32bit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MainModule, actual ratio is 20.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1029
+ Flip-Flops                                            : 1029
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : MainModule.ngr
+Top Level Output File Name         : MainModule
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 98
+
+Cell Usage :
+# BELS                             : 3315
+#      BUF                         : 2
+#      GND                         : 1
+#      INV                         : 3
+#      LUT2                        : 953
+#      LUT2_D                      : 17
+#      LUT2_L                      : 2
+#      LUT3                        : 1090
+#      LUT3_D                      : 11
+#      LUT4                        : 207
+#      LUT4_D                      : 24
+#      LUT4_L                      : 16
+#      MUXF5                       : 540
+#      MUXF6                       : 256
+#      MUXF7                       : 128
+#      MUXF8                       : 64
+#      VCC                         : 1
+# FlipFlops/Latches                : 1033
+#      FDE                         : 64
+#      FDE_1                       : 960
+#      FDRE                        : 5
+#      LD                          : 4
+# RAMS                             : 1
+#      RAMB16                      : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 97
+#      IBUF                        : 1
+#      OBUF                        : 96
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 4vlx15sf363-12 
+
+ Number of Slices:                     1237  out of   6144    20%  
+ Number of Slice Flip Flops:           1033  out of  12288     8%  
+ Number of 4 input LUTs:               2323  out of  12288    18%  
+ Number of IOs:                          98
+ Number of bonded IOBs:                  98  out of    240    40%  
+ Number of FIFO16/RAMB16s:                1  out of     48     2%  
+    Number used as RAMB16s:               1
+ Number of GCLKs:                         1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+----------------------------------------+------------------------+-------+
+Clock Signal                            | Clock buffer(FF name)  | Load  |
+----------------------------------------+------------------------+-------+
+Operation_not0001(Operation_not000132:O)| NONE(*)(Operation_0)   | 4     |
+CLK                                     | BUFGP                  | 1030  |
+----------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -12
+
+   Minimum period: 20.603ns (Maximum Frequency: 48.537MHz)
+   Minimum input arrival time before clock: 2.404ns
+   Maximum output required time after clock: 14.228ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 20.603ns (frequency: 48.537MHz)
+  Total number of paths / destination ports: 9244040 / 2058
+-------------------------------------------------------------------------
+Delay:               10.301ns (Levels of Logic = 14)
+  Source:            CI/IM/Mrom_DATA_mux0000 (RAM)
+  Destination:       RF/r1/temp_0 (FF)
+  Source Clock:      CLK falling
+  Destination Clock: CLK rising
+
+  Data Path: CI/IM/Mrom_DATA_mux0000 to RF/r1/temp_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16:CLKA->DOA21  256   1.647   1.333  CI/IM/Mrom_DATA_mux0000 (Data<21>)
+     BUF:I->O            257   0.269   1.458  CI/IM/Mrom_DATA_mux0000_insulate0_Data<21>_1 (CI/IM/Mrom_DATA_mux0000_insulate0_Data<21>_1)
+     LUT3:I2->O            1   0.147   0.000  RF/mux1/Mmux_O_9104 (RF/mux1/Mmux_O_9104)
+     MUXF5:I0->O           1   0.291   0.000  RF/mux1/Mmux_O_7_f5_77 (RF/mux1/Mmux_O_7_f578)
+     MUXF6:I0->O           1   0.294   0.000  RF/mux1/Mmux_O_5_f6_51 (RF/mux1/Mmux_O_5_f652)
+     MUXF7:I0->O           1   0.294   0.000  RF/mux1/Mmux_O_3_f7_25 (RF/mux1/Mmux_O_3_f726)
+     MUXF8:I1->O           4   0.300   0.398  RF/mux1/Mmux_O_2_f8_25 (RegFileOut1_4_OBUF)
+     LUT2_D:I1->O          2   0.147   0.527  ALU/Alu_4/Mux_2_A/O1 (ALU/Alu_4/T_A)
+     LUT4:I1->O            2   0.147   0.527  ALU/Alu_4/Madd_ADDER_Tmp_Madd_cy<0>11_SW1 (N53)
+     LUT3:I0->O            1   0.147   0.000  ALU/Alu_7/Madd_ADDER_Tmp_Madd_cy<0>11_G (N226)
+     MUXF5:I1->O           8   0.284   0.451  ALU/Alu_7/Madd_ADDER_Tmp_Madd_cy<0>11 (ALU/T_cout<7>)
+     LUT3:I2->O            9   0.147   0.469  ALU/Alu_11/Madd_ADDER_Tmp_Madd_cy<0>11 (ALU/T_cout<11>)
+     LUT3:I2->O            7   0.147   0.430  ALU/Alu_23/Madd_ADDER_Tmp_Madd_cy<0>11 (ALU/T_cout<23>)
+     LUT4:I3->O            1   0.147   0.000  ALU/Alu_27/Mux_4_A/Mmux_O_3 (ALU/Alu_27/Mux_4_A/Mmux_O_3)
+     MUXF5:I1->O          33   0.284   0.000  ALU/Alu_27/Mux_4_A/Mmux_O_2_f5 (ALUOut_27_OBUF)
+     FDE:D                     0.017          RF/r0/temp_27
+    ----------------------------------------
+    Total                     10.301ns (4.709ns logic, 5.592ns route)
+                                       (45.7% logic, 54.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              2.404ns (Levels of Logic = 2)
+  Source:            START (PAD)
+  Destination:       CI/R/temp_0 (FF)
+  Destination Clock: CLK falling
+
+  Data Path: START to CI/R/temp_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   0.754   0.293  START_IBUF (START_IBUF)
+     INV:I->O              5   0.269   0.283  CI/R/temp_and00001_INV_0 (CI/R/temp_and0000)
+     FDRE:R                    0.805          CI/R/temp_0
+    ----------------------------------------
+    Total                      2.404ns (1.828ns logic, 0.576ns route)
+                                       (76.0% logic, 24.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Operation_not0001'
+  Total number of paths / destination ports: 4742 / 32
+-------------------------------------------------------------------------
+Offset:              9.521ns (Levels of Logic = 9)
+  Source:            Operation_3 (LATCH)
+  Destination:       ALUOut<31> (PAD)
+  Source Clock:      Operation_not0001 falling
+
+  Data Path: Operation_3 to ALUOut<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q             121   0.358   1.191  Operation_3 (Operation_3)
+     LUT4:I1->O            3   0.147   0.399  ALU/Alu_3/Madd_ADDER_Tmp_Madd_lut<0>1 (ALU/Alu_3/Madd_ADDER_Tmp_Madd_lut<0>)
+     LUT4:I3->O            1   0.147   0.436  ALU/Alu_2/Madd_ADDER_Tmp_Madd_cy<0>11_SW0 (N55)
+     LUT3:I1->O            4   0.147   0.276  ALU/Alu_3/Madd_ADDER_Tmp_Madd_cy<0>11 (ALU/T_cout<3>)
+     MUXF5:S->O            8   0.401   0.451  ALU/Alu_7/Madd_ADDER_Tmp_Madd_cy<0>11 (ALU/T_cout<7>)
+     LUT3:I2->O            9   0.147   0.469  ALU/Alu_11/Madd_ADDER_Tmp_Madd_cy<0>11 (ALU/T_cout<11>)
+     LUT3:I2->O            7   0.147   0.430  ALU/Alu_23/Madd_ADDER_Tmp_Madd_cy<0>11 (ALU/T_cout<23>)
+     LUT4:I3->O            1   0.147   0.000  ALU/Alu_27/Mux_4_A/Mmux_O_3 (ALU/Alu_27/Mux_4_A/Mmux_O_3)
+     MUXF5:I1->O          33   0.284   0.689  ALU/Alu_27/Mux_4_A/Mmux_O_2_f5 (ALUOut_27_OBUF)
+     OBUF:I->O                 3.255          ALUOut_27_OBUF (ALUOut<27>)
+    ----------------------------------------
+    Total                      9.521ns (5.180ns logic, 4.341ns route)
+                                       (54.4% logic, 45.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 295533 / 96
+-------------------------------------------------------------------------
+Offset:              14.228ns (Levels of Logic = 15)
+  Source:            CI/IM/Mrom_DATA_mux0000 (RAM)
+  Destination:       ALUOut<31> (PAD)
+  Source Clock:      CLK falling
+
+  Data Path: CI/IM/Mrom_DATA_mux0000 to ALUOut<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16:CLKA->DOA21  256   1.647   1.333  CI/IM/Mrom_DATA_mux0000 (Data<21>)
+     BUF:I->O            257   0.269   1.458  CI/IM/Mrom_DATA_mux0000_insulate0_Data<21>_1 (CI/IM/Mrom_DATA_mux0000_insulate0_Data<21>_1)
+     LUT3:I2->O            1   0.147   0.000  RF/mux1/Mmux_O_9104 (RF/mux1/Mmux_O_9104)
+     MUXF5:I0->O           1   0.291   0.000  RF/mux1/Mmux_O_7_f5_77 (RF/mux1/Mmux_O_7_f578)
+     MUXF6:I0->O           1   0.294   0.000  RF/mux1/Mmux_O_5_f6_51 (RF/mux1/Mmux_O_5_f652)
+     MUXF7:I0->O           1   0.294   0.000  RF/mux1/Mmux_O_3_f7_25 (RF/mux1/Mmux_O_3_f726)
+     MUXF8:I1->O           4   0.300   0.398  RF/mux1/Mmux_O_2_f8_25 (RegFileOut1_4_OBUF)
+     LUT2_D:I1->O          2   0.147   0.527  ALU/Alu_4/Mux_2_A/O1 (ALU/Alu_4/T_A)
+     LUT4:I1->O            2   0.147   0.527  ALU/Alu_4/Madd_ADDER_Tmp_Madd_cy<0>11_SW1 (N53)
+     LUT3:I0->O            1   0.147   0.000  ALU/Alu_7/Madd_ADDER_Tmp_Madd_cy<0>11_G (N226)
+     MUXF5:I1->O           8   0.284   0.451  ALU/Alu_7/Madd_ADDER_Tmp_Madd_cy<0>11 (ALU/T_cout<7>)
+     LUT3:I2->O            9   0.147   0.469  ALU/Alu_11/Madd_ADDER_Tmp_Madd_cy<0>11 (ALU/T_cout<11>)
+     LUT3:I2->O            7   0.147   0.430  ALU/Alu_23/Madd_ADDER_Tmp_Madd_cy<0>11 (ALU/T_cout<23>)
+     LUT4:I3->O            1   0.147   0.000  ALU/Alu_27/Mux_4_A/Mmux_O_3 (ALU/Alu_27/Mux_4_A/Mmux_O_3)
+     MUXF5:I1->O          33   0.284   0.689  ALU/Alu_27/Mux_4_A/Mmux_O_2_f5 (ALUOut_27_OBUF)
+     OBUF:I->O                 3.255          ALUOut_27_OBUF (ALUOut<27>)
+    ----------------------------------------
+    Total                     14.228ns (7.947ns logic, 6.281ns route)
+                                       (55.9% logic, 44.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 29.00 secs
+Total CPU time to Xst completion: 29.55 secs
+ 
+--> 
+
+Total memory usage is 310888 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   56 (   0 filtered)
+Number of infos    :    7 (   0 filtered)
+

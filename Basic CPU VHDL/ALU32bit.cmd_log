@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/Arch/Milestone2/ALU32bit.xst" -ofn "E:/Arch/Milestone2/ALU32bit.syr" 
+xst -intstyle ise -ifn "E:/Arch/Milestone2/ALU32bit.xst" -ofn "E:/Arch/Milestone2/ALU32bit.syr" 
+xst -intstyle ise -ifn "E:/Arch/Milestone2/ALU32bit.xst" -ofn "E:/Arch/Milestone2/ALU32bit.syr" 
+xst -intstyle ise -ifn "E:/Arch/Milestone2/ALU32bit.xst" -ofn "E:/Arch/Milestone2/ALU32bit.syr" 
+xst -intstyle ise -ifn "E:/Arch/Milestone2/ALU32bit.xst" -ofn "E:/Arch/Milestone2/ALU32bit.syr" 
+xst -intstyle ise -ifn "E:/Arch/Milestone2/ALU32bit.xst" -ofn "E:/Arch/Milestone2/ALU32bit.syr" 

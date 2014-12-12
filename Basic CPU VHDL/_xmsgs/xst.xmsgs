@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MainModule</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/MainModule.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/MainModule.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MainModule/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/MainModule.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/MainModule.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ALU32bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/ALU32bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/ALU32bit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ALU32bit/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/ALU32bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/ALU32bit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ClkInst</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/ClkInst.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/ClkInst.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ClkInst/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/ClkInst.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/ClkInst.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/RegisterFile</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/RegisterFile.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/RegisterFile.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/RegisterFile/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/RegisterFile.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/RegisterFile.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ALU1bit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/ALU1bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/ALU1bit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ALU1bit/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/ALU1bit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/ALU1bit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Decoder32</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/Decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/Decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Decoder32/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/Decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/Decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GenericReg</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/GenericReg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/GenericReg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GenericReg/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/GenericReg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/GenericReg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/INSTRMEMORY</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/InstMem.V3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/InstMem.V3.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/INSTRMEMORY/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/InstMem.V3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/InstMem.V3.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX32</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/MUX32.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/MUX32.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX32/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/MUX32.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/MUX32.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/reg32_0</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/Reg32_0.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/Reg32_0.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/reg32_0/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/Reg32_0.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/Reg32_0.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/reg32_1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/Reg32_1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/Reg32_1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/reg32_1/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/Reg32_1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/Reg32_1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Reg6</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/Reg6.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/Reg6.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Reg6/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/Reg6.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/Reg6.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/MUX2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/MUX2.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX2/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/MUX2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/MUX2.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/MUX4.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/MUX4.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUX4/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/MUX4.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/MUX4.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MyPackage</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Arch/Milestone2/MyPackage.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/omar/Desktop/Project/Milestone2/MyPackage.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/omar/Desktop/Project/Milestone2/InstMem.V3.vhd</arg>&quot; line <arg fmt="%d" index="2">43</arg>: Index value(s) does not match array range, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/omar/Desktop/Project/Milestone2/InstMem.V3.vhd</arg>&quot; line <arg fmt="%d" index="2">25</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;LoadIt&gt;</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">MEMORY_0$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">INSTRMEMORY</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000000000000010100000000100101</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">MEMORY_1$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">INSTRMEMORY</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000001000000010100100000100000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">MEMORY_2$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">INSTRMEMORY</arg>&gt; has a constant value of <arg fmt="%s" index="3">00000001000010010101000000101010</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ADDRESS&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">LoadIt</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">MEMORY&lt;0:2&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">MEMORY&lt;3:31&gt;</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ADDRESS&lt;31:8&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000000000000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ADDRESS&lt;1:0&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">Set&lt;31&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">Set&lt;30:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">zero</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">overflow</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">Data&lt;10:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">Cout</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">4</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Operation</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="old" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DATA_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IM</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="old" >The ROM &lt;<arg fmt="%s" index="1">Mrom_DATA_mux0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">DATA</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3039" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mrom_DATA_mux0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">CI/R/temp_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MainModule</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

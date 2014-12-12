@@ -1,0 +1,5 @@
+vhdl work "E:\Arch\Milestone2\MyPackage.vhd"
+vhdl work "E:\Arch\Milestone2\MUX4.vhd"
+vhdl work "E:\Arch\Milestone2\MUX2.vhd"
+vhdl work "E:\Arch\Milestone2\ALU1bit.vhd"
+vhdl work "E:\Arch\Milestone2\ALU32bit.vhd"

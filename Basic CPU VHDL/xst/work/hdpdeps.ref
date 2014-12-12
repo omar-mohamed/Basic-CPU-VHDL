@@ -1,0 +1,121 @@
+V3 86
+FL C:/Users/omar/Desktop/Project/Milestone2/ALU1bit.vhd 2014/04/18.09:15:21 M.53d
+EN work/ALU1bit 1399241538 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/ALU1bit.vhd \
+      PB ieee/std_logic_1164 1270894585 PB ieee/STD_LOGIC_UNSIGNED 1270894587 \
+      PH work/MyPackage 1399241533
+AR work/ALU1bit/Behavioral 1399241539 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/ALU1bit.vhd EN work/ALU1bit 1399241538 \
+      CP MUX2 CP MUX4
+FL C:/Users/omar/Desktop/Project/Milestone2/ALU32bit.vhd 2014/04/16.17:44:45 M.53d
+EN work/ALU32bit 1399241558 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/ALU32bit.vhd \
+      PB ieee/std_logic_1164 1270894585 PB ieee/STD_LOGIC_UNSIGNED 1270894587 \
+      PH work/MyPackage 1399241533
+AR work/ALU32bit/Behavioral 1399241559 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/ALU32bit.vhd EN work/ALU32bit 1399241558 \
+      CP ALU1bit
+FL C:/Users/omar/Desktop/Project/Milestone2/ClkInst.vhd 2014/04/16.22:32:02 M.53d
+EN work/ClkInst 1399241554 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/ClkInst.vhd \
+      PB ieee/std_logic_1164 1270894585 PH work/MyPackage 1399241533
+AR work/ClkInst/Behavioral 1399241555 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/ClkInst.vhd EN work/ClkInst 1399241554 \
+      CP Reg6 CP INSTRMEMORY
+FL C:/Users/omar/Desktop/Project/Milestone2/Decoder.vhd 2014/04/16.09:48:38 M.53d
+EN work/Decoder32 1399241540 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/Decoder.vhd \
+      PB ieee/std_logic_1164 1270894585 PB ieee/std_logic_arith 1270894586 \
+      PB ieee/STD_LOGIC_UNSIGNED 1270894587
+AR work/Decoder32/Behavioral 1399241541 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/Decoder.vhd EN work/Decoder32 1399241540
+FL C:/Users/omar/Desktop/Project/Milestone2/GenericReg.vhd 2014/04/16.09:48:26 M.53d
+EN work/GenericReg 1399241548 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/GenericReg.vhd \
+      PB ieee/std_logic_1164 1270894585 PB ieee/STD_LOGIC_UNSIGNED 1270894587
+AR work/GenericReg/Behavioral 1399241549 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/GenericReg.vhd \
+      EN work/GenericReg 1399241548
+FL C:/Users/omar/Desktop/Project/Milestone2/InstMem.V3.vhd 2014/04/16.19:51:31 M.53d
+EN work/INSTRMEMORY 1399241552 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/InstMem.V3.vhd \
+      PB ieee/std_logic_1164 1270894585 PB ieee/STD_LOGIC_SIGNED 1270894587 \
+      PB ieee/std_logic_arith 1270894586 PB ieee/STD_LOGIC_TEXTIO 1270894586 \
+      LB STD PB std/TEXTIO 1270894585
+AR work/INSTRMEMORY/BEHAVIORAL 1399241553 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/InstMem.V3.vhd \
+      EN work/INSTRMEMORY 1399241552
+FL C:/Users/omar/Desktop/Project/Milestone2/MainModule.vhd 2014/04/18.20:04:51 M.53d
+EN work/MainModule 1399241560 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/MainModule.vhd \
+      PB ieee/std_logic_1164 1270894585 PB ieee/STD_LOGIC_UNSIGNED 1270894587 \
+      PH work/MyPackage 1399241533
+AR work/MainModule/Behavioral 1399241561 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/MainModule.vhd \
+      EN work/MainModule 1399241560 CP ClkInst CP RegisterFile CP ALU32bit
+FL C:/Users/omar/Desktop/Project/Milestone2/MUX2.vhd 2014/04/16.09:43:37 M.53d
+EN work/MUX2 1399241534 FL C:/Users/omar/Desktop/Project/Milestone2/MUX2.vhd \
+      PB ieee/std_logic_1164 1270894585 PB ieee/std_logic_arith 1270894586 \
+      PB ieee/STD_LOGIC_UNSIGNED 1270894587
+AR work/MUX2/Behavioral 1399241535 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/MUX2.vhd EN work/MUX2 1399241534
+FL C:/Users/omar/Desktop/Project/Milestone2/MUX32.vhd 2014/04/16.09:48:11 M.53d
+EN work/MUX32 1399241542 FL C:/Users/omar/Desktop/Project/Milestone2/MUX32.vhd \
+      PB ieee/std_logic_1164 1270894585 PB ieee/std_logic_arith 1270894586 \
+      PB ieee/STD_LOGIC_UNSIGNED 1270894587
+AR work/MUX32/Behavioral 1399241543 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/MUX32.vhd EN work/MUX32 1399241542
+FL C:/Users/omar/Desktop/Project/Milestone2/MUX4.vhd 2014/04/16.09:43:22 M.53d
+EN work/MUX4 1399241536 FL C:/Users/omar/Desktop/Project/Milestone2/MUX4.vhd \
+      PB ieee/std_logic_1164 1270894585 PB ieee/std_logic_arith 1270894586 \
+      PB ieee/STD_LOGIC_UNSIGNED 1270894587
+AR work/MUX4/Behavioral 1399241537 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/MUX4.vhd EN work/MUX4 1399241536
+FL C:/Users/omar/Desktop/Project/Milestone2/MyPackage.vhd 2014/04/16.22:37:52 M.53d
+PH work/MyPackage 1399241533 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/MyPackage.vhd \
+      PB ieee/std_logic_1164 1270894585 CD MUX4 CD MUX2 CD ALU1bit CD GenericReg \
+      CD reg32_0 CD reg32_1 CD INSTRMEMORY CD Reg6 CD ClkInst CD Decoder32 CD MUX32 \
+      CD RegisterFile CD ALU32bit
+FL C:/Users/omar/Desktop/Project/Milestone2/Reg32_0.vhd 2014/04/16.20:05:40 M.53d
+EN work/reg32_0 1399241544 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/Reg32_0.vhd \
+      PB ieee/std_logic_1164 1270894585 PB ieee/std_logic_arith 1270894586 \
+      PB ieee/STD_LOGIC_UNSIGNED 1270894587
+AR work/reg32_0/Behavioral 1399241545 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/Reg32_0.vhd EN work/reg32_0 1399241544
+FL C:/Users/omar/Desktop/Project/Milestone2/Reg32_1.vhd 2014/04/16.19:51:06 M.53d
+EN work/reg32_1 1399241546 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/Reg32_1.vhd \
+      PB ieee/std_logic_1164 1270894585 PB ieee/std_logic_arith 1270894586 \
+      PB ieee/STD_LOGIC_UNSIGNED 1270894587
+AR work/reg32_1/Behavioral 1399241547 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/Reg32_1.vhd EN work/reg32_1 1399241546
+FL C:/Users/omar/Desktop/Project/Milestone2/Reg6.vhd 2014/04/16.20:59:09 M.53d
+EN work/Reg6 1399241550 FL C:/Users/omar/Desktop/Project/Milestone2/Reg6.vhd \
+      PB ieee/std_logic_1164 1270894585 PB ieee/STD_LOGIC_UNSIGNED 1270894587
+AR work/Reg6/Behavioral 1399241551 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/Reg6.vhd EN work/Reg6 1399241550
+FL C:/Users/omar/Desktop/Project/Milestone2/RegisterFile.vhd 2014/04/16.22:35:50 M.53d
+EN work/RegisterFile 1399241556 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/RegisterFile.vhd \
+      PB ieee/std_logic_1164 1270894585 PH work/MyPackage 1399241533
+AR work/RegisterFile/Behavioral 1399241557 \
+      FL C:/Users/omar/Desktop/Project/Milestone2/RegisterFile.vhd \
+      EN work/RegisterFile 1399241556 CP Decoder32 CP MUX32 CP reg32_0 CP reg32_1 \
+      CP GenericReg
+FL E:/Arch/Milestone2/ALU1bit.vhd 2014/04/18.09:15:21 M.53d
+FL E:/Arch/Milestone2/ALU32bit.vhd 2014/04/16.17:44:45 M.53d
+FL E:/Arch/Milestone2/ClkInst.vhd 2014/04/16.22:32:02 M.53d
+FL E:/Arch/Milestone2/Decoder.vhd 2014/04/16.09:48:38 M.53d
+FL E:/Arch/Milestone2/GenericReg.vhd 2014/04/16.09:48:26 M.53d
+FL E:/Arch/Milestone2/InstMem.V3.vhd 2014/04/16.19:51:31 M.53d
+FL E:/Arch/Milestone2/MainModule.vhd 2014/04/18.09:16:56 M.53d
+FL E:/Arch/Milestone2/MUX2.vhd 2014/04/16.09:43:37 M.53d
+FL E:/Arch/Milestone2/MUX32.vhd 2014/04/16.09:48:11 M.53d
+FL E:/Arch/Milestone2/MUX4.vhd 2014/04/16.09:43:22 M.53d
+FL E:/Arch/Milestone2/MyPackage.vhd 2014/04/16.22:37:52 M.53d
+FL E:/Arch/Milestone2/Reg32_0.vhd 2014/04/16.20:05:40 M.53d
+FL E:/Arch/Milestone2/Reg32_1.vhd 2014/04/16.19:51:06 M.53d
+FL E:/Arch/Milestone2/Reg6.vhd 2014/04/16.20:59:09 M.53d
+FL E:/Arch/Milestone2/RegisterFile.vhd 2014/04/16.22:35:50 M.53d
